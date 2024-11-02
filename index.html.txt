@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Kupon Diskon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kupon Diskon</h1>
+        <form id="couponForm">
+            <input type="text" id="couponInput" placeholder="Masukkan kupon">
+            <button type="submit">Tambahkan Kupon</button>
+        </form>
+        <ul id="couponList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

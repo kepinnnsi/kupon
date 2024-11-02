@@ -1,0 +1,14 @@
+document.getElementById('couponForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const couponInput = document.getElementById('couponInput');
+    const couponValue = couponInput.value;
+
+    if (couponValue) {
+        const li = document.createElement('li');
+        li.textContent = couponValue;
+        document.getElementById('couponList').appendChild(li);
+        couponInput.value = '';
+    } else {
+        alert('Masukkan kupon yang valid!');
+    }
+});
